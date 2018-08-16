@@ -191,3 +191,14 @@ zsh --no-rcs
 
 * [Ahmet Alp Balkan](https://github.com/ahmetb)
 * Jared Yanovich
+
+## Red Hat GPTE
+
+Context can be very long and take up a full line of terminal.
+
+Set `export KUBE_PS1_CONTEXT_LENGTH=short` to enable short context.
+
+-or-
+
+Set `export GPTE=example` to enable GUID only context for our envs with example.opentlc.com.
+
